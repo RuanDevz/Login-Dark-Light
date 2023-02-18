@@ -1,9 +1,9 @@
-const mode = document.getElementById('moon');
+const mode = document.getElementById('moon')
 
-mode.addEventListener('click', clicar);
+mode.addEventListener('click',clicar)
 
-function clicar() {
-  if (mode.classList.contains('fa-moon')) {
+function clicar(){
+  if(mode.classList.contains('fa-moon')) {
     mode.classList.remove('fa-moon');
     mode.classList.add('fa-sun');
   } else {
