@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="darkstyle.css">
     <link rel="stylesheet" href="estilos/style.css">
 
     <title>Login Dark/Light</title>
 </head>
 <body>
-    <main class="container">
+    <main id="dark" class="container">
         <header class="container_header">
             <h1>Login</h1>
             <i id="moon" class="fa-solid fa-moon"></i>
@@ -38,19 +39,19 @@
                     <h1>Name</h1>
                     <i id="icon" class="fa-solid fa-user"></i>
                     <label for="name"></label>
-                    <input type="text" name="name" id="name">
+                    <input class="input" type="text" name="name" id="name">
                 </div>
                 <div>
                     <h1>E-mail</h1>
                     <i id="icon" class="fa-solid fa-envelope"></i>
                     <label for="email"></label>
-                    <input type="email" name="email" id="email">
+                    <input class="input" type="email" name="email" id="email">
                 </div>
                 <div>
                     <h1>Password</h1>
                     <i id="icon" class="fa-solid fa-lock"></i>
                     <label for="password"></label>
-                    <input type="password" name="password" id="password">
+                    <input class="input" type="password" name="password" id="password">
                 </div>
                 <div class="forgot_password">
                     <a href="#">Forgot your password?</a>

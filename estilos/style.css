@@ -144,3 +144,16 @@ color:white;
 border-color:white; 
 transition: 0.3s; 
 }
+
+main#dark{
+    background: rgb(44, 44, 44)
+}
+
+i#moon{
+    color: var(--color-light-50);
+}
+
+
+main#dark h1{
+    color: var(--color-light-50);
+}
